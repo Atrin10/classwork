@@ -1,0 +1,10 @@
+year = int(input("Enter human years:  "))
+
+if year <= 1:
+  print ("Error 404 not found")
+
+if year <= 2:
+  d_year= year * 10.5
+else: d_year= (year - 2) * 4 + 21
+
+print(d_year)
