@@ -1,0 +1,8 @@
+# Determine and display whether an integer entered centred by the user is even or odd.
+
+num = int(input("Enter an integer:"))
+
+if num%2:
+  print (num, "is odd.")
+else: 
+  print (num, "is even.")
