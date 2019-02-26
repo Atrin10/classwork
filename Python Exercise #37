@@ -1,0 +1,26 @@
+ # Report the name of a shape from its number of sides.abs#
+
+nsides = int(input("Enter the number of sides: "))
+
+name = ""
+if nsides == 3:
+  name = "triangle"
+if nsides == 4:
+  name = "quadrilateral"
+if nsides == 5:
+  name = "pentagon"
+if nsides == 6:
+  name = "hexagon"
+if nsides == 7:
+  name = "heptagon"
+if nsides == 8:
+  name = "octagon"
+if nsides == 9:
+  name = "nonagon"
+if nsides == 10:
+  name = "decagon"
+
+if name == "":
+  print("That number of sides is not supported by this program.")
+else:
+  print(f"That's a {name}")
